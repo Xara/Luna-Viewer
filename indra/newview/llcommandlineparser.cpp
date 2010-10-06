@@ -219,7 +219,7 @@ protected:
 };
 
 //----------------------------------------------------------------------------
-// LLCommandLineParser defintions
+// LLCommandLineParser definitions
 //----------------------------------------------------------------------------
 void LLCommandLineParser::addOptionDesc(const std::string& option_name, 
                                         boost::function1<void, const token_vector_t&> notify_callback,
